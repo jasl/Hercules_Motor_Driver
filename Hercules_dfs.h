@@ -46,10 +46,7 @@
 //ctrl
 #define ALLMOSON        digitalWrite(PINCS, HIGH)
 #define ALLMOSOFF       digitalWrite(PINCS, LOW)
-
-
-
-
+  
 #endif
 /*********************************************************************************************************
   END FILE

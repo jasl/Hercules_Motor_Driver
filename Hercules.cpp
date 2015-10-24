@@ -59,7 +59,6 @@ void motor_4wd::begin()
     digitalWrite(PINM1R, LOW);
     digitalWrite(PINM2F, LOW);
     digitalWrite(PINM2R, LOW);
-   
 }
 
 /*********************************************************************************************************
@@ -91,7 +90,7 @@ void motor_4wd::setRun2()
 {
     PWM.setPwm(10, motorSpeed2, FREQPWM);
     ALLMOSON;
-    if(motorDir2 == DIRF)
+    if(motorDir2 == DIRR)
     {
         digitalWrite(PINM2F, HIGH);
         digitalWrite(PINM2R, LOW);
